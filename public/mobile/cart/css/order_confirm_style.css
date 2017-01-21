@@ -1,0 +1,274 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-size: 12px;
+	font-family: '微软雅黑';
+	/*height: 1428px;*/
+	list-style: none;
+}
+
+/*顶部返回和标题*/
+#top{
+	width: 100%;
+	height: 120px;
+	background: #4ABC96;
+}
+
+#top img{
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin-left: 50px;
+	margin-top: 16px;
+}
+
+#top p{
+	/*	border: 1px solid blue;*/
+	float: left;
+	text-align: center;
+	font-size: 3.5rem;
+	font-family: '微软雅黑';
+	color: #fff;
+	width: 68%;
+	height: 120px;
+	line-height: 120px;
+}
+
+/*收货信息栏*/
+/*第一次购买，没有过地址记录的情况*/
+#shouhuo_info{
+	width: 100%;
+	height: 210px;
+	/*border: 1px solid blue;*/
+	border-bottom: 15px solid #4ABC96;
+}
+#shouhuo_info .tip1{
+	width: 900px;
+	height: 200px;
+	/*border: 1px solid black;*/
+	margin: 0 auto;
+	text-align: center;
+	line-height: 200px;
+	font-size: 42px;
+	color: #999;
+	/*控制显示tips1(第一次填收货地址)*/
+	/*display: none; */
+}
+#shouhuo_info .tip1 #add{
+	width: 46px;
+	height: 46px;
+	font-size: 40px;
+	line-height: 46px;
+	text-align: center;
+	border-radius: 5px;
+	border: none;
+}
+
+/*第一次以后购买，有过地址信息记录之后*/
+#shouhuo_info .tip2{
+	width: 900px;
+	height: 200px;
+	/*border: 1px solid black;*/
+	margin: 0 auto;
+	/*控制显示tips2(第二次填收货地址)*/
+	display: none;
+}
+#shouhuo_info .tip2 #person{
+	width: 900px;
+	height: 90px;
+	line-height: 90px;
+	/*border: 1px solid blue;*/
+	font-size: 38px;
+}
+#person #name{
+	margin-left: 90px;
+}
+#person #phone{
+	width: 510px;
+	height: 90px;
+	line-height: 90px;
+	/*border: 1px solid blue;*/
+	text-align: right;
+	display: inline-block;
+}
+#address{
+	width: 900px;
+	height: 104px;
+	line-height: 50px;
+	/*border: 1px solid black;*/
+	font-size: 28px; 
+}
+#address img{
+	width: 78px;
+	height: 78px;
+	float: left;
+}
+#address p{
+	width: 715px;
+	float: left;
+	font-size: 28px;
+	/*border: 1px solid blue;*/
+	margin-left: 10px;
+}
+
+/*每件商品订单的展示*/
+.showbook{
+	width: 100%;
+	height: 610px;
+	/*border: 1px solid blue;*/
+	border-top: 22px solid #EEEEEE;
+	border-bottom: 1px solid #999;
+}
+.showbook .shop{
+	width: 900px;
+	height: 130px;
+	/*border: 1px solid blue;*/
+	margin: 0 auto;
+}
+.showbook .shop img{
+	width: 60px;
+	height: 60px;
+	margin-top: 30px;
+/*	border: 1px solid black;*/
+	float: left;
+
+}
+.showbook .shop p{
+	width: 812px;
+	height: 130px;
+	/*border: 1px solid black;*/
+	line-height: 130px;
+	float: left;
+	font-size: 34px;
+	padding-left: 23px;
+}
+.back{
+	width: 100%;
+	height: 240px;
+	background: #F5F5F5;
+}
+#goods_pic{
+	width: 900px;
+	height: 225px;
+	/*border: 1px solid blue;*/
+	margin: 0 auto;
+}
+#goods_pic img{
+	width: 200px;
+	height: 180px;
+	/*border: 1px solid blue;*/
+	margin-top: 20px;
+	float: left;
+}
+#goods_word{
+	width: 674px;
+	height: 220px;
+	/*border: 1px solid green;*/
+	float: left;
+	margin-right: 0px;
+	padding-left: 20px;
+}
+#goods_word .number{
+	width: 674px;
+	height: 50px;
+	/*border: 1px solid blue;*/
+	margin-top: 90px;
+}
+#goods_word #goods_title{
+	font-size: 30px;
+	margin-top: 20px;
+}
+#goods_word .price{
+	font-size: 32px;
+	float: left;
+	color: #FF7130;
+}
+#goods_word .count{
+	font-size: 32px;
+	float: left;
+	margin-left: 500px;
+}
+#message{
+	width: 900px;
+	height: 120px;
+	/*border: 1px solid blue;*/
+	margin: 0 auto;
+	border-bottom: 1px solid #E9E9E9;
+}
+#message span{
+	font-size: 40px;
+	line-height: 120px;
+}
+#message #liuyan{
+	width: 680px;
+	height: 60px;
+	font-size: 31px;
+	font-family: '微软雅黑';
+	border: none;
+	outline: none;
+}
+/*最后一行，价格和数量*/
+#lastLine{
+	width: 900px;
+	height: 120px;
+	/*border: 1px solid green;*/
+	margin: 0 auto;
+	/*line-height: 120px;*/
+}
+#lastLine p{
+	
+	height: 40px;
+	/*border: 1px solid blue;*/
+	font-size: 32px;
+}
+#lastLine #Bnumber{
+	width: 630px;
+	height: 120px;
+	line-height: 120px;
+	float: left;
+	text-align: right;
+}
+#lastLine #sadd{
+	width: 228px;
+	height: 120px;
+	float: left;
+	padding-left: 37px;
+	line-height: 120px;
+}
+#lastLine #sadd strong{
+	color: #FF7130;
+}
+
+/*底部悬浮*/
+#bottom{
+	width: 100%;
+	height: 110px;
+	border-top: 1px solid #999;
+	background: #F5F5F5;
+	/*position: absolute;
+	bottom: 0;
+	right: 0;*/
+}
+#bottom .all_price{
+	font-size: 34px;
+	/*float: left;*/
+	display: inline-block;
+	line-height: 110px;
+	/*border: 1px solid blue;*/
+	margin-left: 485px;
+}
+#bottom .all_price strong{
+	color: #FF7130;
+}
+#bottom .sub{
+	font-size: 40px;
+	font-family: '微软雅黑';
+	border: none;
+	background: #4ABC96;
+	width: 230px;
+	height: 110px;
+	color: #fff;
+	float: right;
+}

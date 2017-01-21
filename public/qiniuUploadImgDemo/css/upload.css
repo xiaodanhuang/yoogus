@@ -1,0 +1,31 @@
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		#photo{
+			width: 600px;
+			/*height: 600px;*/
+			/*border: 1px solid blue;*/
+			margin: 30px auto;
+		}
+		.photoarea{
+			width: 200px;
+			/*height: 600px;*/
+			/*border: 1px solid blue;*/
+			margin: 0 10px 10px; auto;
+			float: left;
+		}
+		.uploadbtn{
+			width: 200px;
+			height: 200px;
+			border: 5px solid #ccc; 
+			font-size: 140px;
+			background: white;
+		}
+		/*#sub{
+			width: 180px;
+			height: 38px;
+			font-size: 23px;
+			margin-top: 30px;
+			font-family: 微软雅黑;
+		}*/

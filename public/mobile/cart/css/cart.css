@@ -1,0 +1,239 @@
+@media screen and (max-device-width: 480px) {
+    #divMain{
+        float: none;
+        width:auto;
+    }
+    #divSidebar {
+        display:none;
+    }
+}
+* {
+    margin: 0px auto;
+    padding: 0px auto;
+}
+
+body{
+    background-color:#FFFFFF;
+    font-family:"microsoft yahei" ;
+    color:black;
+
+}
+
+.header{
+    width:100%;
+    height:150px;
+    background-color: #4ABC96;
+    font-size: 60px;
+    line-height: 150px;
+    text-align: center;
+    color: white;
+
+}
+.fanhui{
+    margin-top:15px;
+    background-image: url("../img/back.png");
+    width:100px;
+    height:120px;
+    background-size: cover;
+    float:left;
+}
+.bianji{
+
+margin-right: 35px;
+
+    font-size: 40px;
+    float:right;
+
+}
+.wancheng{
+
+    margin-right: 35px;
+
+    font-size: 40px;
+    float:right;
+    display:none;
+
+
+}
+
+.mycar{
+
+    width:95%;
+    height:500px;
+    margin-top:20px;
+}
+.shopcheck{
+    margin-top: 20px;
+    width:60px;
+    height:60px;
+    border-radius:30px ;
+    background-color: white;
+    border:1px  #2A2C2E solid;
+    float:left;
+
+}
+.allcheck{
+    margin-top: 40px;
+    margin-left:30px;
+    width:60px;
+    height:60px;
+    border-radius:30px ;
+    background-color: white;
+    border:1px  #2A2C2E solid;
+    float:left;
+    background-size: cover;
+
+}
+.mycheck{
+    margin-top: 80px;
+    width:60px;
+    height:60px;
+    border-radius:30px ;
+    border:1px  #2A2C2E solid;
+    float:left;
+    background-size: cover;
+
+}
+.myshop{
+    margin-left:10px ;
+    margin-top: 10px;
+    width:80px;
+    height:80px;
+    background-color: white;
+    float:left;
+    background-image:url("../img/open.png") ;
+    background-repeat: no-repeat;
+    background-size:80px 80px ;
+
+
+
+}
+.shopname{
+      margin-left:10px ;
+      margin-top: 10px;
+      height:80px;
+      background-color: white;
+      float:left;
+      font-size: 40px;
+      line-height: 80px;
+
+
+
+  }
+.delete{
+    margin-left:10px ;
+    margin-top: 10px;
+    height:80px;
+    background-color: white;
+    float:right;
+    font-size: 40px;
+    line-height: 80px;
+    display: none;
+
+}
+.shopmessage{
+    width:100%;
+    height:100px;
+}
+.mygoods{
+    width:250px;
+    height: 250px;
+    float:left;
+    background-size: cover;
+    margin-left: 25px;
+    margin-right:25px ;
+
+}
+.mygoods img{
+    display: block;
+    width:250px;
+    height:250px;
+}
+.shopcontent{
+    margin-top:30px;
+    width:100%;
+    height:250px;
+
+}
+.goodsdiscribe{
+    font-size:35px ;
+    text-align: left;
+
+padding-left: 20px;
+}
+.price{
+    margin-top:20px;
+    font-size:35px ;
+    margin-top:150px;
+    float:left;
+    color: #FF7130;
+}
+.disnum{
+    font-size:35px ;
+    margin-top:150px;
+    float:right;
+    margin-right:10px;
+
+
+}
+.num{
+    margin-top:20px;
+    font-size:35px ;
+    display:none;
+    float:right;
+
+}
+table{
+    border-collapse: collapse;
+    width:300px;
+    height:100px;
+    font-size:40px ;
+    text-align: center;
+}
+td{
+    width:100px;
+}
+.all_in{
+
+    width:100%;
+    height:120px;
+    position:fixed;
+    bottom:0;
+    background-color:#F5F5F5;
+    font-size:45px;
+
+}
+.selectall{
+    width:100px;
+    height:150px;
+    line-height:150px ;
+    float:left;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+}
+.sum{
+    margin-left: 20px;
+    height:150px;
+    line-height:150px ;
+    float:left;
+    text-align: left;
+    font-size: 45px;
+    font-weight: bold;
+}
+.money{
+
+    font-size: 40px;
+}
+.order{
+    width:200px;
+    height:120px;
+    line-height:150px ;
+    float:right;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    background-color: #4ABC96;
+    color:white;
+
+}

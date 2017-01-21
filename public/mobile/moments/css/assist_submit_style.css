@@ -1,0 +1,159 @@
+body{
+    font-size: 12px;
+    font-family: '微软雅黑';
+    /*background: url(../images/person.jpg);*/
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/*标题*/
+#top{
+    width: 100%;
+    height: 120px;
+    background: #4ABC96;
+}
+
+#top img{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 16px;
+}
+
+#top p{
+    /*  border: 1px solid blue;*/
+    float: left;
+    text-align: center;
+    font-size: 4rem;
+    font-family: 微软雅黑;
+    color: #fff;
+    width: 68%;
+    height: 120px;
+    line-height: 120px;
+}
+/*饰品简述部分*/
+.jianjie{
+    width: 820px;
+    height: 420px;
+    font-size: 3rem;
+    /*border: 1px solid blue;*/
+    margin: 0 auto;
+    margin-top: 2rem;
+    /*margin-bottom: 50px;*/
+}
+.jianjie span{ 
+    font-weight: 500;
+}
+.jianjie .in{
+    font-size: 1.6rem;
+    color: #328CCB;
+    padding-left: 10px;
+    display: none;
+    /*visibility: hidden;
+*/}
+.jianjie .inpic{
+    width: 50px;
+    height: 50px;
+    display: none;
+    /*visibility: hidden;*/
+}
+.high{
+    height: 69px;
+}
+.jianjie .intro{
+    text-align: center;
+    width: 820px;
+    height: 320px;
+    line-height: 320px;
+    font-size: 2.6rem;
+    font-family: '微软雅黑';
+    border: none;
+    border-bottom: 2px solid #999;
+    outline: none;
+}
+/*紧急指数*/
+.jinji{
+    width: 820px;
+    height: 60px;
+    font-size: 3rem;
+    /*border: 1px solid blue;*/
+    margin: 0 auto;
+    margin-top: 3.1rem;
+}
+.jinji span.zhishu{ 
+    font-weight: 500;
+}
+.jinji .early{
+    width: 100px;
+    height: 50px;
+    font-size: 2.5rem;
+    border-radius: 15px;
+    padding-left: 5px;
+    border: 1px solid #999;
+    outline: none;
+}
+.jinji span.tip{ 
+    font-size: 2.1rem;
+}
+/*上传图片*/
+#photo p{
+    font-size: 3rem;
+    text-align: left;
+}
+/*提交发布*/
+#sub_div{
+    width: 820px;
+    height: 80px;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+#sub{
+    width: 820px;
+    height: 90px;
+    background: #4ABC96;
+    border-style: none;
+    color: white;
+    font-size: 3.2rem;
+    border-radius: 30px;
+    text-align: center;
+    font-family: '微软雅黑';
+}
+
+
+#photo{
+    width: 820px;
+    /*height: 600px;*/
+    /*border: 1px solid blue;*/
+    margin: 30px auto;
+}
+.photoarea{
+    width: 200px;
+    /*height: 600px;*/
+    /*border: 1px solid blue;*/
+    margin: 0 auto;
+}
+.uploadbtn{
+    width: 200px;
+    height: 200px;
+    /*border: 5px solid #ccc;*/ 
+    font-size: 140px;
+    margin-top: 60px;
+    /*background: white;*/
+}
+.uploadbtn img{
+    width: 200px;
+    height: 200px;
+}
+#imgList{
+    margin: 5px auto;
+    /*border: 1px solid blue;*/
+}
+#imgList img{
+    width: 387px;
+    height: 320px;
+    margin: 10px;
+    /*border: 1px solid blue;*/
+}

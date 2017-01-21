@@ -1,0 +1,147 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-size: 12px;
+	font-family: '微软雅黑';
+	/*height: 1428px;*/
+	list-style: none;
+}
+
+/*顶部返回和标题*/
+#top{
+	width: 100%;
+	height: 120px;
+	background: #4ABC96;
+}
+
+#top img{
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin-left: 50px;
+	margin-top: 16px;
+}
+
+#top p{
+	/*	border: 1px solid blue;*/
+	float: left;
+	text-align: center;
+	font-size: 3.5rem;
+	font-family: '微软雅黑';
+	color: #fff;
+	width: 68%;
+	height: 120px;
+	line-height: 120px;
+}
+
+/*收货信息*/
+#re_info{
+	width: 850px;
+	height: 700px;
+	/*border: 1px solid blue;*/
+	margin: 45px auto;
+}
+/*收货人*/
+#re_info #uname{
+	width: 850px;
+	height: 240px;
+	/*border: 1px solid black;*/
+	font-size: 50px;
+}
+#re_info #uname span{
+	margin-right: 22px;
+	margin-left: 10px;
+	float: left;
+	line-height: 130px;
+}
+#re_info #uname img{
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+#re_info #uname #re_name{
+	width: 845px;
+	border: none;
+	border-bottom: 1px solid #999;
+	outline: none;
+	font-size: 45px;
+	font-family: '微软雅黑';
+	text-align: center;
+}
+
+/*联系电话*/
+#re_info #phonenumber{
+	width: 850px;
+	height: 240px;
+	/*border: 1px solid black;*/
+	font-size: 50px;
+}
+#re_info #phonenumber span{
+	margin-right: 16px;
+	margin-left: 13px;
+	float: left;
+	line-height: 120px;
+}
+#re_info #phonenumber img{
+	width: 90px;
+	height: 90px;
+	float: left;
+}
+#re_info #phonenumber #re_phone{
+	width: 845px;
+	border: none;
+	border-bottom: 1px solid #999;
+	outline: none;
+	font-size: 45px;
+	font-family: '微软雅黑';
+	text-align: center;
+}
+
+/*收货地址*/
+#re_info #address{
+	width: 850px;
+	height: 240px;
+	/*border: 1px solid black;*/
+	font-size: 50px;
+}
+#re_info #address span{
+	margin-right: 16px;
+	margin-left: 10px;
+	float: left;
+	line-height: 140px;
+}
+#re_info #address img{
+	width: 120px;
+	height: 120px;
+	float: left;
+}
+#re_info #address #re_addr{
+	width: 845px;
+	border: none;
+	border-bottom: 1px solid #999;
+	outline: none;
+	font-size: 45px;
+	font-family: '微软雅黑';
+	text-align: center;
+}
+
+/*提交收货地址*/
+.find{
+	width: 820px;
+	height: 100px;
+	margin: 0 auto;
+	margin-top: 1rem;
+}
+.sub{
+	width: 820px;
+	height: 100px;
+	background: #4ABC96;
+	border-style: none;
+	color: white;
+	font-size: 3.2rem;
+	border-radius: 30px;
+	text-align: center;
+	font-family: '微软雅黑';
+}

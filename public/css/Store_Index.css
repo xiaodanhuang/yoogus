@@ -1,0 +1,82 @@
+@charset "utf-8";
+
+@font-face {font-family: 'iconfont';
+    src: url('../iconfont/iconfont.eot'); /* IE9*/
+    src: url('../iconfont/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../iconfont/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../iconfont/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../iconfont/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+html, body, header,content,figure,figcaption,img,button {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: .16rem;
+}
+button {
+    border: 0;
+    outline: 0;
+}
+header {
+    margin-top: .3rem;
+    margin-left: .4rem;
+}
+header button {
+    padding: .12rem .3rem;
+    border-radius: .2rem;
+    color: #fff;
+    background: #ff99cc;
+}
+#content {
+    margin-top: .3rem;
+    margin-left: .4rem;
+}
+#content .goods {
+    display: inline-block;
+    margin-right: .4rem;
+    margin-bottom: .25rem;
+}
+.goods,figure img {
+    width: 3rem;
+}
+.goods figure {
+    position: relative;
+    display: inline-block;
+    border: .01rem solid #ccc;
+}
+figure img {
+    border-bottom: .01rem solid #ccc;
+}
+figure button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: .5rem;
+    height: .5rem;
+    line-height: 0;
+    font-size: .5rem;
+    font-family: iconfont;
+    color: #888;
+    border: .01rem solid #888;
+    background: #fff;
+}
+figure figcaption {
+    height: .7rem;
+    line-height: .7rem;
+    font-size: .34rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp:1;
+    -webkit-box-orient:vertical;
+    text-align: center;
+}
+.goods > button {
+    margin-top: .2rem;
+    margin-left: .25rem;
+    padding: .1rem .2rem;
+    border: .01rem solid #ccc;
+    border-radius: .15rem;
+    background: #fff;
+}

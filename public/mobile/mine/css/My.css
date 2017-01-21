@@ -1,0 +1,353 @@
+@media screen and (max-device-width: 480px) {
+	  #divMain{
+	  float: none;
+	  width:auto;
+	}
+	  #divSidebar {
+	  display:none;
+    }
+}
+
+
+body{
+			background-color:#FFFFFF;
+			font-family:"microsoft yahei" ;
+
+
+
+
+}
+*{
+	margin: 0 auto;
+	padding: 0 auto;
+
+}
+
+
+.My{
+	width:100%;
+	height:300px;
+	background-color:#4ABC96;
+	padding-top:50px;
+
+
+
+}
+.photo{
+	width:180px;
+	height:180px;
+	border-radius:100px ;
+	margin:  0px auto   ;
+	background-image:url(../../moments/img/userimg.png) ;
+	background-size: 100%;
+
+
+}
+.My p{
+	margin-top:20px ;
+	font-size:45px ;
+	text-align: center;
+	color:white;
+}
+table{
+	margin-top:40px ;
+width:100%;
+height:150px;
+border-bottom:1px solid #1E90FF ;
+	margin-bottom: 30px;
+}
+td{
+text-align: center;
+font-size:50px ;
+
+}
+#shipindian {
+	color:#888888;
+}
+ #myshop {
+	color:#888888;
+}
+#storybox {
+	color:#888888;
+}
+#orderquery {
+	color:#888888;
+}
+.focus{
+	width:95%;
+	margin: 0px auto;
+	padding: 0px auto;
+
+
+
+}
+.mycar{
+	float:right;
+	background-image: url("../img/court.png");
+	width:200px;
+	height:200px;
+background-size: 50%;
+background-position:50px 0px;
+	background-repeat: no-repeat;
+	font-size: 45px;
+	line-height:300px;
+	color: white;
+
+
+}
+.myoder{
+	width:95%;
+	margin: 0px auto;
+	padding: 0px auto;
+
+
+
+}
+.user{
+	  width:90%;
+	  margin: 0px auto;
+	  padding: 0px auto;
+
+
+
+  }
+.mybag{
+	width:95%;
+	margin: 0px auto;
+	padding: 0px auto;
+
+
+
+}
+	.Myshop{
+		width:100%;
+		min-height:650px;
+
+}
+	
+	.Myimg{
+		width:120px;
+		height:120px;
+		border-radius:60px;
+		float: left;
+}
+img{
+		display: block;
+	}
+.shoucangimg{
+	width:120px;
+	height:120px;
+	border-radius:60px;
+	float: left;
+}
+	.Myname{
+		width:250px;
+		height:120px;
+		float:left;	
+		font-size:45px;
+		line-height:120px ;
+		margin-left:15px;
+}
+
+.shoucangname{
+	width:250px;
+	height:120px;
+	float:left;
+	font-size:45px;
+	line-height:120px ;
+	margin-left:15px;
+}
+
+	.fan{
+		width:80px;
+		height:50px;
+		background-color: #1E90FF;
+		float:left;
+		font-size:35px;
+		line-height:50px ;
+		margin-left:10px;
+		border-radius:20px ;
+		color:snow;
+		text-align: center;
+}
+.myfan{
+	width:100px;
+	height:60px;
+	background-color: #1E90FF;
+	float:left;
+	font-size:40px;
+	line-height:60px ;
+	margin-left:10px;
+	border-radius:20px ;
+	color:snow;
+	text-align: center;
+}
+	.abshop{
+		width:200px;
+		height:70px;
+		border:1px #1E90FF solid;
+		color:#1E90FF;
+		float:left;
+		font-size:40px;
+		border-radius:20px;
+		line-height:70px;
+		text-align:center;
+		margin-left:200px ;
+		margin-top:30px ;
+
+	
+}
+.shoucangabshop{
+	width:200px;
+	height:70px;
+	border:1px #1E90FF solid;
+	color:#1E90FF;
+	float:left;
+	font-size:40px;
+	border-radius:20px;
+	line-height:70px;
+	text-align:center;
+	margin-left:200px ;
+	margin-top:30px ;
+
+}
+	.shopbg{
+		width:85%;
+		height:350px;
+		background-size:cover;
+		border-radius:20px;
+		box-shadow: 5px 10px 10px #888888;
+	}
+	.myshop img{
+		margin: 0px auto;
+		padding: 0px auto;
+		display:block;
+	}
+	.storemessage{
+		width:100%;
+		height:120px;
+	
+}
+
+	.discribe{
+		margin-top:20px;
+		width:65%;
+		height:120px;
+		line-height:50px;
+		float:left;
+		font-size:40px;
+		margin-left:100px ;
+		
+}
+	.shopzan{
+		margin-top:30px;
+		width:72px;
+		height:120px;
+		line-height:120px;
+		float:left;
+		background-image: url(../../moments/img/lovebigr.png);
+		background-repeat:no-repeat ;
+
+
+	
+}
+
+	.shopnumber{
+		height:120px;
+		line-height:120px;
+		float:left;
+		margin-left:10px;
+		font-size:45px;
+		text-align: center;
+}
+
+	.Story{
+		width:95%;
+		
+}
+
+
+	.content{
+		width:100%;
+		height:150px;
+		
+	}
+
+	.userimg{
+		width:120px;
+		height:120px;
+		margin-top:32px;
+		float: left;
+	  border-radius:60px ;
+}
+
+	.usermessage{
+		margin-top: 32px;
+		width:500px;
+		height:120px;
+		font-size:40px;
+		float: left;
+		margin-left: 20px;
+}
+
+	.zan{
+		width:72px;
+		height:120px;
+		font-size:40px;
+		float:right;
+		margin-right:10px;
+		background-repeat: no-repeat;
+		background-image: url(../../moments/img/lovebigr.png);
+		background-position-y:35px ;
+	
+}
+	.number{
+
+		margin-top:32px;
+		height:120px;
+		font-size:40px;
+		float:right;
+		background-repeat: no-repeat;
+}
+
+	.publish{
+		font-size:45px ;
+		width:100%;
+		min-height:200px;
+		margin-top:20px;	
+}
+	
+
+	.pinglun{
+		width:100%;
+		min-height:300px;
+		text-align: left;
+		margin-bottom:30px ;
+}
+
+	.readmore{
+		width:100%;
+		height:80px;
+		color: blue;
+		font-size:45px;
+		line-height:80px ;
+}
+	
+	.myconment{
+		width:100%;
+		font-size:35px ;
+		color: #222222;
+}
+	.guanzhu{
+		width:95%;
+		height:200px;
+		margin-top:20px;
+	
+}
+	.orderthing{
+		width:100%;
+		height:600px;
+}
+	.storytime{
+		font-size:30px ;
+	}

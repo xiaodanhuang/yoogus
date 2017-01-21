@@ -1,0 +1,196 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'microsoft YaHei';
+	font-size: 12px;
+}
+li{
+	list-style: none;
+}
+#header{
+	width: 100%;
+	height: 340px;
+	color: #4ABC96;
+}
+#header .top{
+	width: 800px;
+	height: 340px;
+	margin: 0 auto;
+	border: 1px solid #5CBDFD;
+}
+#header .top .touxiang{
+	width: 200px;
+	height: 200px;
+	border: 1px solid blue;
+	border-radius: 100%;
+	margin: 30px auto 10px;
+	display: block;
+}
+#header .top .nichen{
+	width: 40%;
+	height: 80px;
+	/*border: 1px solid blue;*/
+	margin: 0 auto;
+	text-align: center;
+	line-height: 80px;
+	font-size: 2.8rem;
+	color: white;
+}
+/*菜单*/
+#menu{
+	width: 900px;
+	height: 135px;
+	/*border: 1px solid blue;*/
+	border-bottom: 5px solid #5CBDFD;
+	margin: 20px auto;
+}
+#menu li{
+	display: inline-block;
+	/*border: 1px solid blue;*/
+} 
+#menu li p{
+	font-size: 2.6rem;
+}
+#menu li p.count{
+	text-align: center;
+	margin-bottom: 10px;
+}
+#menu .story{
+	margin-left: 6.2rem;
+	margin-right: 3.1rem;
+}
+#menu .zhanggui{
+	margin-left: 3.1rem;
+	margin-right: 6.2rem;
+}
+
+/*订单模块*/
+#book li.zong{
+
+	width: 900px;
+	height: 700px;
+	border: 1px solid #ccc;
+	box-shadow: -10px 10px 10px #ccc;
+	margin: 0px auto;
+	margin-top: 20px;
+	display:block;
+}
+.mokuai{
+margin-left:10px;
+	width: 900px;
+	height: 75px;
+	margin-bottom: 10px;
+	/*border: 1px solid blue;*/
+}
+.bxiang{
+	margin-bottom: 10px;
+	width: 70px;
+	height: 70px;
+	border: 1px solid black;
+	border-radius: 100%;
+	float: left;
+	margin-left: 10px;
+}
+.dianming{
+	/*border: 1px solid purple;*/
+	font-size: 2rem;
+	text-decoration: none;
+	line-height: 70px;
+	color: #4C4C4C;
+	margin-left: 10px;
+}
+.Tstatus{
+	font-size: 2rem;
+	font-weight: 500;
+	color: #F1102B;
+	margin-left: 550px;
+	float:right;
+
+}
+.bs_intro{
+	width: 900px;
+	height: 200px;
+	/*border: 1px solid red;*/
+	font-size: 2.3rem;
+	margin-bottom: 10px;
+}
+.bs_up{
+	width: 900px;
+	height: 200px;
+	/*border: 1px solid green;*/
+}
+.bs_img{
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+	border-radius: 20px;
+	float: left;
+	margin-left: 10px;
+}
+.bs_text{
+	width: 490px;
+	height: 180px;
+	/*border: 1px solid blue;*/
+	margin-left: 10px;
+	padding: 10px;
+	float: left;
+	text-align: left;
+}
+.price{
+
+	height: 200px;
+	/*border: 1px solid blue;*/
+	float: right;
+}
+.price span{
+ text-align: right;
+	margin: 12px;
+	display: block;
+
+}
+.price_ed{
+	text-decoration:line-through;
+	color: #999;
+}
+.bs_down{
+	width: 100%;
+	height: 60px;
+	/*border: 1px solid blue;*/
+	line-height: 60px;
+	margin-top: 10px;
+	border-bottom: 1px solid #999;
+	text-align: right;
+}
+.bs_down p{
+	margin-left: 170px;
+}
+.btn_ul{
+	margin-left: 249px;
+	margin-top: 15px;
+}
+.btn_ul li{
+	list-style: none;
+	width: 200px;
+	height: 80px;
+	border: 1px solid #434343;
+	font-size: 2.6rem;
+	float: right;
+	margin-top: 75px;
+	line-height: 80px;
+	text-align: center;
+	margin-right: 15px;
+	border-radius: 20px;
+}
+.btn_ul li a{
+	text-decoration: none;
+	color: #434343;
+}
+.btn_ul li.shouhuo{
+	border-color: red;
+}
+.btn_ul li.shouhuo a{
+	color: red;
+}
+
